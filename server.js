@@ -1,5 +1,6 @@
 require('dotenv').config();
 require('./config/database.config');
+require('./src/utils/scheduleFunc');
 const express = require('express');
 const app = express();
 const cors = require('cors');

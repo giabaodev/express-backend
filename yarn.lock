@@ -980,7 +980,7 @@ cors@^2.8.5:
     object-assign "^4"
     vary "^1"
 
-cron-parser@^4.2.0:
+cron-parser@^4.2.0, cron-parser@^4.7.1:
   version "4.7.1"
   resolved "https://registry.yarnpkg.com/cron-parser/-/cron-parser-4.7.1.tgz#1e325a6a18e797a634ada1e2599ece0b6b5ed177"
   integrity sha512-WguFaoQ0hQ61SgsCZLHUcNbAvlK0lypKXu62ARguefYmjzaOXIVRNrAmyXzabTwUn4sQvQLkk6bjH+ipGfw8bA==

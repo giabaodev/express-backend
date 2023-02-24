@@ -1,12 +1,12 @@
 const mongoose = require('mongoose');
-const url = process.env.MONGO_URL;
+const uri = process.env.MONGO_URI;
 // mongoose.set('useNewUrlParser', true);
 // mongoose.set('useUnifiedTopology', true);
 // mongoose.set('useFindAndModify', false);
 // mongoose.set('useCreateIndex', true);
 mongoose.set('strictQuery', true);
 
-const connection = mongoose.connect(url, {
+const connection = mongoose.connect(uri, {
     useNewUrlParser: true,
 });
 
